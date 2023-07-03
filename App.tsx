@@ -29,7 +29,7 @@ export default function App() {
         alert('Permission to access location was denied');
       }
     } catch (error) {
-      console.log(error);
+      console.log(`An error has occurred: ${error}`);
     }
   }
 
